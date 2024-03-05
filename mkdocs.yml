@@ -1,0 +1,13 @@
+site_name: "CITZ Common Code Documentation Test"
+site_description: "Documentation about common code developed by the CITZ IMB"
+docs_dir: "docs"
+repo_url:  "bcgov/devhub-content-template-citz-imb-demo"
+edit_uri: edit/main/docs/
+plugins:
+    - techdocs-core
+    - ezlinks
+markdown_extensions:
+    - markdown_inline_mermaid
+    - md_in_html
+    -   mkpatcher:
+            location: patcher.py

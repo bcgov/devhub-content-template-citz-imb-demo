@@ -1,0 +1,11 @@
+version: 1
+data_management_roles:
+  product_owner: Laura Benson
+product_information:
+  ministry: CITZ
+  product_acronym: CITZCO
+  product_description: Documentation about common code developed by the CITZ IMB
+  product_name: Common Code
+  program_area: CITZ IMB
+product_technology_information:
+  hosting_platforms: Private-Cloud-Openshift
